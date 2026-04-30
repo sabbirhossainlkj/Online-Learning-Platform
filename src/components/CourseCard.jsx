@@ -8,7 +8,7 @@ const CourseCard = ({ photo }) => {
   const { image, instructor, title, rating } = photo;
   return (
     <div className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition duration-300 border">
-      <div className="relative w-full h-60 overflow-hidden">
+      <div  className="relative w-full h-[350px]">
         <Image
           src={image}
           alt={title}
@@ -27,9 +27,9 @@ const CourseCard = ({ photo }) => {
           {title}
         </h2>
 
-        <p className="text-gray-600 text-sm">👨‍🏫 {instructor}</p>
+        <p className="text-gray-600 text-sm"> {instructor}</p>
 
-        <Link href="/">
+        <Link href={`/allcourse/${photo.id}`}>
           <Button className="w-full mt-3 bg-black text-white hover:bg-indigo-600 transition rounded-xl">
             View Details
           </Button>

@@ -7,8 +7,8 @@ const AllCoursePage = async () => {
   );
   const photos = await res.json();
   return (
-    <div>
-      <h2>all course page</h2>
+    <div className="my-10">
+      <h2 className="text-2xl font-bold text-center mb-4">All Course</h2>
       <div className="grid grid-cols-4 gap-3">
         {photos.map((photo) => {
           return <CourseCard key={photo.id} photo={photo}></CourseCard>;

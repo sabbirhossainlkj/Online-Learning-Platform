@@ -29,8 +29,8 @@ const Navbar = () => {
 
           <li>
             <Link
-              href="/"
-              className={pathname === "/" ? "text-blue-500 underline" : ""}
+              href="/allcourse"
+              className={pathname === "/allcourse" ? "text-blue-500 underline" : ""}
             >
               All Courses
             </Link>

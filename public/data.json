@@ -7,7 +7,7 @@
     "rating": 4.8,
     "level": "Beginner",
     "description": "Learn full-stack web development from scratch.",
-    "image": "https://i.postimg.cc/example-course1.png",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNtLnYEqvhKKHET_JzfYOv5hZNV1cngGuY_A&s",
     "category": "Development"
   },
   {
@@ -18,7 +18,7 @@
     "rating": 4.7,
     "level": "Intermediate",
     "description": "Master React JS with real-world projects.",
-    "image": "https://i.postimg.cc/example-course2.png",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlr1mnxnB6QXDUtY6UO8Zrf0Ew60gSurMdLA&s",
     "category": "Development"
   },
   {
@@ -29,7 +29,7 @@
     "rating": 4.9,
     "level": "Advanced",
     "description": "Build production-ready apps using Next.js.",
-    "image": "https://i.postimg.cc/example-course3.png",
+    "image": "https://excelsm.com/wp-content/uploads/2025/03/speaker-headshot-alex-smith-6.jpg",
     "category": "Development"
   },
   {
@@ -40,7 +40,7 @@
     "rating": 4.6,
     "level": "Beginner",
     "description": "Learn modern UI/UX design principles.",
-    "image": "https://i.postimg.cc/example-course4.png",
+    "image": "https://i1.rgstatic.net/ii/profile.image/11431281183132443-1692717101366_Q512/Emily-Johnson-131.jpg",
     "category": "Design"
   },
   {
@@ -51,7 +51,7 @@
     "rating": 4.7,
     "level": "Intermediate",
     "description": "Master CSS and Tailwind for modern websites.",
-    "image": "https://i.postimg.cc/example-course5.png",
+    "image": "https://media.licdn.com/dms/image/v2/D4E03AQGHJfBfnDQ4AA/profile-displayphoto-scale_400_400/B4EZnG5q8eIwAg-/0/1759978631477?e=2147483647&v=beta&t=D3QpEg9IDIgi8gyqDj83BLyOJPjayAvRzx4zn3IR8gI",
     "category": "Development"
   },
   {
@@ -62,7 +62,7 @@
     "rating": 4.8,
     "level": "Beginner",
     "description": "Learn core JavaScript concepts deeply.",
-    "image": "https://i.postimg.cc/example-course6.png",
+    "image": "https://profileplus.swmed.edu/facultydata/76682/images/Michael%20Lee%20MD%20Social%20Photo%202022_800x800_800x800.jpg",
     "category": "Programming"
   },
   {
@@ -73,7 +73,7 @@
     "rating": 4.7,
     "level": "Beginner",
     "description": "Start your journey with Python programming.",
-    "image": "https://i.postimg.cc/example-course7.png",
+    "image": "https://moprevention.org/wp-content/uploads/2024/01/anna_kim-e1706735854213-300x300.jpg",
     "category": "Programming"
   },
   {
@@ -84,7 +84,7 @@
     "rating": 4.9,
     "level": "Advanced",
     "description": "Master DSA for coding interviews.",
-    "image": "https://i.postimg.cc/example-course8.png",
+    "image": "https://www.ccw.org.uk/app/uploads/2023/03/Rob-Wilson.jpg",
     "category": "Computer Science"
   },
   {
@@ -95,7 +95,7 @@
     "rating": 4.6,
     "level": "Beginner",
     "description": "Become a professional graphic designer.",
-    "image": "https://i.postimg.cc/example-course9.png",
+    "image": "https://i.ytimg.com/vi/NAmuflZzH2s/maxresdefault.jpg",
     "category": "Design"
   },
   {
@@ -106,7 +106,7 @@
     "rating": 4.5,
     "level": "Intermediate",
     "description": "Learn SEO, ads, and marketing strategy.",
-    "image": "https://i.postimg.cc/example-course10.png",
+    "image": "https://londonspeakerbureau.com/wp-content/uploads/2018/10/James-Taylor.jpg",
     "category": "Marketing"
   },
   {
@@ -117,7 +117,7 @@
     "rating": 4.9,
     "level": "Advanced",
     "description": "Introduction to AI and ML concepts.",
-    "image": "https://i.postimg.cc/example-course11.png",
+    "image": "https://www.politics.ox.ac.uk/sites/default/files/styles/homepage_banner_view_v2/public/2025-05/daniel_white.png.webp?itok=rNlQ-8-9",
     "category": "AI"
   },
   {
@@ -128,7 +128,7 @@
     "rating": 4.4,
     "level": "Beginner",
     "description": "Start your freelancing career successfully.",
-    "image": "https://i.postimg.cc/example-course12.png",
+    "image": "https://ntvb.tmsimg.com/assets/assets/692763_v9_bd.jpg",
     "category": "Career"
   }
 ]

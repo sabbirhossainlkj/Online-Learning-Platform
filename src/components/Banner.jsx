@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <section className="relative bg-[url('/banner4.jpg')] bg-cover bg-center text-white overflow-hidden">
+        <section className="relative shadow-2xl rounded-xl bg-[url('/banner4.jpg')] bg-cover bg-center text-white overflow-hidden">
 
       <div className="absolute inset-0 opacity-30">
         <div className="absolute w-72 h-72 bg-pink-500 rounded-full blur-3xl top-10 left-10"></div>

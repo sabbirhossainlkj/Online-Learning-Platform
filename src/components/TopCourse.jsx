@@ -8,10 +8,10 @@ const TopCourse = async () => {
   const TopCourse = photos.slice(0, 3);
   return (
     <div className="my-6">
-      <h2 className="font-bold text-2xl text-center">
+      <h2 className="font-bold text-3xl text-center">
         Top 3 highest-rated courses
       </h2>
-      <div className="grid grid-cols-3 gap-4 my-4">
+      <div className="grid grid-cols-3 gap-4 my-6">
         {TopCourse.map((photo) => {
           return <CourseCard key={photo.id} photo={photo}></CourseCard>;
         })}

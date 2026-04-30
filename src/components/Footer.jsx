@@ -1,4 +1,5 @@
 import React from "react";
+import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -10,7 +11,7 @@ const Footer = () => {
           </h2>
           <p className="text-gray-300">📧 support@skillsphere.com</p>
           <p className="text-gray-300">📞 +880 1XXXXXXXXX</p>
-          <p className="text-gray-300">📍 Kaliganj, Dhaka, Bangladesh</p>
+          <p className="text-gray-300">📍 Nikunja-2, Dhaka, Bangladesh</p>
         </div>
 
         <div className="space-y-3">
@@ -18,10 +19,10 @@ const Footer = () => {
             Social Links
           </h2>
           <div className="flex flex-col gap-2 text-gray-300">
-            <a className="hover:text-blue-400 transition">🔵 Facebook</a>
-            <a className="hover:text-sky-400 transition">🐦 Twitter</a>
-            <a className="hover:text-blue-500 transition">💼 LinkedIn</a>
-            <a className="hover:text-red-400 transition">▶ YouTube</a>
+            <a className="hover:text-blue-400 flex gap-2 items-center transition"><FaFacebook /> Facebook</a>
+            <a className="hover:text-sky-400 flex gap-2 items-center transition"><FaTwitter /> Twitter</a>
+            <a className="hover:text-blue-500 flex gap-2 items-center transition"><FaLinkedin /> LinkedIn</a>
+            <a className="hover:text-red-400 flex gap-2 items-center transition"><FaYoutube /> YouTube</a>
           </div>
         </div>
 
@@ -40,7 +41,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Section */}
       <div className="border-t border-gray-700 text-center py-5 text-sm text-gray-400">
         © {new Date().getFullYear()}{" "}
         <span className="text-white font-semibold">SkillSphere</span>. All

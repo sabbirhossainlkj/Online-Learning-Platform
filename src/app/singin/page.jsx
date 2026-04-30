@@ -26,6 +26,12 @@ const signInPage = () => {
     console.log({ data, error });
   };
 
+  const handleGoogleSingIn = async () => {
+    await authClient.signIn.social({
+      provider: "google",
+    });
+  };
+
   return (
     <div className="w-6/12 space-y-4 mx-auto my-6 border p-6 shadow-2xl py-9 rounded-2xl">
       <h2 className="text-xl font-bold text-center">singIn page</h2>
@@ -89,7 +95,7 @@ const signInPage = () => {
       </Form>
       <p className="text-2xl font-bold text-center text-gray-400">or</p>
       <Button
-        // onClick={handleGoogleSingIn}
+        onClick={handleGoogleSingIn}
         variant="primary"
         className={"w-full text-xl"}
       >

@@ -13,7 +13,7 @@ const ProfilePage = () => {
                     <Avatar.Fallback>{user?.name[0]}</Avatar.Fallback>
                   </Avatar>
                   <h2 className='text-xl font-bold'>{user?.name}</h2>
-                  <p  className='text-xl font-bold'>{user?.email}</p>
+                  <p  className='text-xl  font-bold'>{user?.email}</p>
                   <UpdateModal></UpdateModal>
         </div>
     );

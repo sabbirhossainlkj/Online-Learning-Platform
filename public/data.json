@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn full-stack web development from scratch.",
+    "image": "https://i.postimg.cc/example-course1.png",
+    "category": "Development"
+  },
+  {
+    "id": 2,
+    "title": "React JS Mastery",
+    "instructor": "Sarah Khan",
+    "duration": "15 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Master React JS with real-world projects.",
+    "image": "https://i.postimg.cc/example-course2.png",
+    "category": "Development"
+  },
+  {
+    "id": 3,
+    "title": "Next.js Full Guide",
+    "instructor": "Alex Smith",
+    "duration": "12 hours",
+    "rating": 4.9,
+    "level": "Advanced",
+    "description": "Build production-ready apps using Next.js.",
+    "image": "https://i.postimg.cc/example-course3.png",
+    "category": "Development"
+  },
+  {
+    "id": 4,
+    "title": "UI/UX Design Basics",
+    "instructor": "Emily Johnson",
+    "duration": "10 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Learn modern UI/UX design principles.",
+    "image": "https://i.postimg.cc/example-course4.png",
+    "category": "Design"
+  },
+  {
+    "id": 5,
+    "title": "Advanced CSS & Tailwind",
+    "instructor": "David Brown",
+    "duration": "8 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Master CSS and Tailwind for modern websites.",
+    "image": "https://i.postimg.cc/example-course5.png",
+    "category": "Development"
+  },
+  {
+    "id": 6,
+    "title": "JavaScript Fundamentals",
+    "instructor": "Michael Lee",
+    "duration": "18 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn core JavaScript concepts deeply.",
+    "image": "https://i.postimg.cc/example-course6.png",
+    "category": "Programming"
+  },
+  {
+    "id": 7,
+    "title": "Python for Beginners",
+    "instructor": "Anna Kim",
+    "duration": "14 hours",
+    "rating": 4.7,
+    "level": "Beginner",
+    "description": "Start your journey with Python programming.",
+    "image": "https://i.postimg.cc/example-course7.png",
+    "category": "Programming"
+  },
+  {
+    "id": 8,
+    "title": "Data Structures & Algorithms",
+    "instructor": "Robert Wilson",
+    "duration": "25 hours",
+    "rating": 4.9,
+    "level": "Advanced",
+    "description": "Master DSA for coding interviews.",
+    "image": "https://i.postimg.cc/example-course8.png",
+    "category": "Computer Science"
+  },
+  {
+    "id": 9,
+    "title": "Graphic Design Masterclass",
+    "instructor": "Sophia Davis",
+    "duration": "11 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Become a professional graphic designer.",
+    "image": "https://i.postimg.cc/example-course9.png",
+    "category": "Design"
+  },
+  {
+    "id": 10,
+    "title": "Digital Marketing Strategy",
+    "instructor": "James Taylor",
+    "duration": "9 hours",
+    "rating": 4.5,
+    "level": "Intermediate",
+    "description": "Learn SEO, ads, and marketing strategy.",
+    "image": "https://i.postimg.cc/example-course10.png",
+    "category": "Marketing"
+  },
+  {
+    "id": 11,
+    "title": "AI & Machine Learning Basics",
+    "instructor": "Daniel White",
+    "duration": "22 hours",
+    "rating": 4.9,
+    "level": "Advanced",
+    "description": "Introduction to AI and ML concepts.",
+    "image": "https://i.postimg.cc/example-course11.png",
+    "category": "AI"
+  },
+  {
+    "id": 12,
+    "title": "Freelancing Career Guide",
+    "instructor": "Chris Martin",
+    "duration": "6 hours",
+    "rating": 4.4,
+    "level": "Beginner",
+    "description": "Start your freelancing career successfully.",
+    "image": "https://i.postimg.cc/example-course12.png",
+    "category": "Career"
+  }
+]

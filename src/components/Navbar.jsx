@@ -48,10 +48,10 @@ const Navbar = () => {
       </div>
 
       <div className="flex gap-3 items-center">
-        <Link href={"/"}>
+        <Link href={"/singup"}>
           <Button variant="outline">SingUp</Button>
         </Link>
-        <Link href={"/"}>
+        <Link href={"/singin"}>
           <Button variant="outline">SingIn</Button>
         </Link>
       </div>

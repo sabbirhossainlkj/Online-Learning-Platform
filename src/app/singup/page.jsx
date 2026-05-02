@@ -11,6 +11,7 @@ import {
   TextField,
 } from "@heroui/react";
 import { useRouter } from "next/navigation";
+import toast from "react-hot-toast";
 
 const signUpPage = () => {
   const router = useRouter();
@@ -28,17 +29,25 @@ const signUpPage = () => {
       email,
       password,
     });
-    console.log({data, error})
-    if (!error) {
-      router.push("/");
+
+    console.log({ data, error });
+
+    if (error) {
+      toast.error(error.message || "Signup failed");
+      return;
     }
+
+    toast.success("Signup successful");
+
+    router.push("/");
   };
 
   return (
     <div className="w-6/12 space-y-4 mx-auto my-6 border p-6 shadow-2xl py-9 rounded-2xl">
-      <h2 className="text-xl font-bold text-center">singUp page</h2>
-      <Form className="flex  flex-col gap-4 space-y-2" onSubmit={onSubmit}>
-        <TextField isRequired name="name" type="name">
+      <h2 className="text-xl font-bold text-center">SignUp Page</h2>
+
+      <Form className="flex flex-col gap-4 space-y-2" onSubmit={onSubmit}>
+        <TextField isRequired name="name" type="text">
           <Label>Name</Label>
           <Input placeholder="Enter your name" />
           <FieldError />
@@ -91,17 +100,20 @@ const signUpPage = () => {
           </Description>
           <FieldError />
         </TextField>
+
         <div className="flex flex-col gap-3">
           <Button
-            className={"w-full text-white text-md font-bold bg-taupe-700"}
+            className="w-full text-white text-md font-bold bg-taupe-700"
             type="submit"
           >
             <Check />
             Submit
           </Button>
+
           <Button
-            className={"w-full text-md font-bold bg-red-500"}
+            className="w-full text-md font-bold bg-red-500"
             type="reset"
+            onClick={() => toast("Form reset 🔄")}
           >
             Reset
           </Button>

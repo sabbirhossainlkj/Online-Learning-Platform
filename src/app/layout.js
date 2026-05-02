@@ -1,3 +1,5 @@
+import { Toaster } from "react-hot-toast";
+
 import {  Outfit } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
@@ -21,6 +23,7 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar></Navbar>
         <main className="w-10/12 mx-auto">{children}</main>
+        <Toaster position="top-right" />
         <Footer></Footer>
         </body>
     </html>

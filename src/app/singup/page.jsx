@@ -113,7 +113,7 @@ const signUpPage = () => {
           <Button
             className="w-full text-md font-bold bg-red-500"
             type="reset"
-            onClick={() => toast("Form reset 🔄")}
+            onClick={() => toast("Form reset ")}
           >
             Reset
           </Button>

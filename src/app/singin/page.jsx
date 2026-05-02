@@ -11,8 +11,12 @@ import {
   TextField,
 } from "@heroui/react";
 import { AiFillGoogleCircle } from "react-icons/ai";
+import toast from "react-hot-toast";
+import { useRouter } from "next/navigation";
 
 const signInPage = () => {
+  const router = useRouter();
+
   const onSubmit = async (e) => {
     e.preventDefault();
     const email = e.target.email.value;
@@ -23,19 +27,35 @@ const signInPage = () => {
       password,
       callbackURL: "/",
     });
+
     console.log({ data, error });
+
+    if (error) {
+      toast.error(error.message || "Login failed");
+      return;
+    }
+
+    toast.success("Login successful");
+    router.push("/");
   };
 
   const handleGoogleSingIn = async () => {
-    await authClient.signIn.social({
+    const promise = authClient.signIn.social({
       provider: "google",
+    });
+
+    toast.promise(promise, {
+      loading: "Signing in with Google...",
+      success: "Google login successful ",
+      error: "Google login failed ",
     });
   };
 
   return (
     <div className="w-6/12 space-y-4 mx-auto my-6 border p-6 shadow-2xl py-9 rounded-2xl">
-      <h2 className="text-xl font-bold text-center">singIn page</h2>
-      <Form className="flex  flex-col gap-4 space-y-2" onSubmit={onSubmit}>
+      <h2 className="text-xl font-bold text-center">SignIn Page</h2>
+
+      <Form className="flex flex-col gap-4 space-y-2" onSubmit={onSubmit}>
         <TextField
           isRequired
           name="email"
@@ -77,30 +97,34 @@ const signInPage = () => {
           </Description>
           <FieldError />
         </TextField>
+
         <div className="flex justify-between items-center gap-3">
           <Button
-            className={"w-full text-white text-md font-bold bg-taupe-700"}
+            className="w-full text-white text-md font-bold bg-taupe-700"
             type="submit"
           >
             <Check />
             Submit
           </Button>
+
           <Button
-            className={"w-full text-md font-bold bg-red-500"}
+            className="w-full text-md font-bold bg-red-500"
             type="reset"
+            onClick={() => toast("Form reset")}
           >
             Reset
           </Button>
         </div>
       </Form>
+
       <p className="text-2xl font-bold text-center text-gray-400">or</p>
+
       <Button
         onClick={handleGoogleSingIn}
-        variant="primary"
-        className={"w-full text-xl"}
+        className="w-full text-xl"
       >
         <AiFillGoogleCircle />
-        Sing In with google
+        Sign In with Google
       </Button>
     </div>
   );

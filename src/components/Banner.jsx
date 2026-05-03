@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <section className="relative shadow-2xl rounded-xl bg-[url('/banner4.jpg')] bg-cover bg-center text-white overflow-hidden">
+        <section className="relative shadow-2xl rounded-xl bg-[url('/banners.png')] bg-cover bg-center text-white overflow-hidden">
 
       <div className="absolute inset-0 opacity-30">
         <div className="absolute w-72 h-72 bg-pink-500 rounded-full blur-3xl top-10 left-10"></div>
@@ -29,7 +29,7 @@ const Banner = () => {
           </button>
         </div>
 
-        <div className="mt-10 inline-block text-white  px-4 py-2 bg-white/10 border border-white/20 rounded-full text-xl font-bold">
+        <div className="mt-10 inline-block text-lime-300  px-4 py-2 bg-white/10 border border-white/20 rounded-full text-xl font-bold">
           🎯 100+ Courses • 🔥 Expert Instructors • ⭐ Top Rated
         </div>
 

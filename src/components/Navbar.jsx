@@ -99,7 +99,6 @@ const Navbar = () => {
           <Link href="/profile" onClick={() => setMenuOpen(false)}>
             My Profile
           </Link>
-
           {!user && (
             <div className="flex flex-col gap-2">
               <Link href="/singup">
